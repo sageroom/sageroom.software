@@ -1,0 +1,61 @@
+body {
+    background-color: #8AA38B;
+    width: 100%;
+}
+
+@font-face {
+    font-family: great-vibes;
+    src: url("fonts/GreatVibes-Wmr4.ttf");
+}
+
+@font-face {
+    font-family: garamond-classico;
+    src: url("fonts/Garamond Classico SC Regular.ttf");
+}
+
+.card {
+    background-color: #F8F6F0;
+    box-shadow: 4px 4px 3px -2px #000000;
+}
+
+#title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    margin-top:40px;
+}
+
+#title {
+    text-align: center;
+    padding: 100px 100px 40px 100px;
+}
+
+#title #tagline, #title #enquiries {
+    font-family: garamond-classico;
+    text-transform: capitalize;
+    background-color: #080808;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(245,245,245,0.25) 1px 2px 1px;
+}
+
+#title h1 {
+    font-family: great-vibes;
+    font-size: 100px;
+    margin: 0;
+    color:  #080808;
+}
+
+#title #tagline {
+    font-size: 30px;
+}
+
+#title #enquiries {
+    padding-top: 60px;
+    font-size: 20px;
+    text-transform: lowercase;
+}
