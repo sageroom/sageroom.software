@@ -3,11 +3,6 @@ body {
 }
 
 @font-face {
-    font-family: great-vibes;
-    src: url("fonts/GreatVibes-Wmr4.ttf");
-}
-
-@font-face {
     font-family: garamond-classico;
     src: url("fonts/Garamond Classico SC Regular.ttf");
 }
@@ -31,7 +26,7 @@ body {
     margin: 30px;
 }
 
-#title #tagline, #title #enquiries {
+#title h1, #title #tagline, #title #enquiries {
     font-family: garamond-classico;
     text-transform: capitalize;
     background-color: #080808;
@@ -39,14 +34,13 @@ body {
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
-    text-shadow: rgba(245,245,245,0.25) 1px 2px 1px;
+    text-shadow: rgba(245,245,245,0.2) 1px 2px 1px;
 }
 
 #title h1 {
-    font-family: great-vibes;
     font-size: 9em;
-    margin: 0;
-    color:  #080808;
+    line-height: 0.8em;
+    margin: 0 0 50px 0;
 }
 
 #title #tagline {
