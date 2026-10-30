@@ -29,7 +29,7 @@ body {
     margin: clamp(16px, 4vw, 30px);
 }
 
-#title h1, #title #tagline, #title #enquiries {
+#title h1, #title #tagline, #title #project, #title #enquiries {
     font-family: garamond-classico;
     text-transform: capitalize;
     background-color: #080808;
@@ -55,4 +55,10 @@ body {
     padding-top: clamp(28px, 6vw, 60px);
     font-size: clamp(1rem, 4vw, 2.5em);
     text-transform: lowercase;
+}
+
+#title #project {
+    padding-top: clamp(28px, 6vw, 60px);
+    font-size: clamp(1rem, 4vw, 2.5em);
+    text-transform: none;
 }
